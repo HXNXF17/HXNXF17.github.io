@@ -41,26 +41,40 @@ height: 100px;
 }
 
 .container-image{
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
 }
-.gambar{
-    border: 2px solid rgb(0, 0, 0);
-    width: 20%;
-    height: 40%;
+
+.ul-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
 }
+
+.gambar{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.li-image{
+    list-style-type: none;
+}
+
 .container-footer{
     border: 2px solid black;
     background-color: #777;
     margin: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px;
-
-    
+    padding: 10px;  
 }
 
 .h1-footer{
