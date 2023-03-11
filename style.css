@@ -9,7 +9,7 @@ body {
 
 .container-navbar{
 background-color: #999;
-width: 100%;
+width: 100vh;
 height: 20vh;
 display: flex;
 align-items: center;
@@ -53,7 +53,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vh;
     height: 60vh;
 
 }
@@ -92,6 +92,7 @@ align-items: center;
     align-items: center;
     padding: 5px;
     height: 20vh;
+    width: 100vh
 }
 .container-footer2{
     height: 150px; 
